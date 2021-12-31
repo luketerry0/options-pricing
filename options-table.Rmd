@@ -1,0 +1,85 @@
+---
+title: "options table"
+author: "Luke Terry"
+date: "12/21/2021"
+output: 
+  html_document:
+    runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+#compile the data
+source("compileData.R")
+eligibleStocks = getUpcomingDividendSymbols()
+data <- compileData(eligibleStocks)
+
+prices <- as.data.frame(data[1])
+options <- as.data.frame(data[2])
+dividends <- as.data.frame(data[3])
+
+#filter options data
+op <- subset(options, Vol != "NA")
+
+#add better measure columns
+op$Bid_Ask_Avg = (op$Bid + op$Ask)/2
+op$Ticker <- getSymbol(rownames(op))
+
+#add stock prices to options table
+subset(prices, prices$date == max(prices$date)) -> currentPrices
+colnames(currentPrices) <- c("Ticker", colnames(currentPrices)[2:8])
+
+
+#add last dividend price to options table
+split(dividends, dividends$symbol) -> splitDiv
+lapply(splitDiv, subset, date == max(date)) -> lastDiv
+dplyr::bind_rows(lastDiv) -> lastDiv
+
+
+# #make one data frame that represents the given spreadsheet
+# display <- data.frame(matrix(ncol = 22)) #premium will be added when displayed, since it's shiny dynamic
+# display <- display[-1,]
+# colnames(display) <- c("Stock Symbol", "Stock Price", "Stock Ext Amount", "Dividend Per Share", "Dividend Amount", "Dividend X Date", "Dividend Pay Date", "Dividend Yield", "Call Strike Price", "Call Premium Per Lot", "Call Exp Date", "Call Premium Ext Price", "Gain Div & Call Only", "Div & Call Return %", "Days Held", "Div and Call Annualized Return %", "Stock Gain at Strke Price", "Total Return at Strke", "Total Return %", "Total Annualized Return %", "Break Even Stock Price", "Stock Decline % at Break Even")
+
+```
+
+
+```{r eval = TRUE, echo = FALSE}
+library(shiny)
+
+ui <- fluidPage(
+
+   # Application title
+   titlePanel("Options Table"),
+
+   sidebarLayout(
+      sidebarPanel(
+         sliderInput("prm", "Option Premium",
+                     min = 0, max = 20, value = 10),
+         sliderInput("shares", "Number of Shares",
+                     min = 0, max = 10000, value = 100)
+      ),
+      
+      mainPanel(
+         tableOutput("options_kable")
+      )
+   )
+)
+
+server <- function(input, output) {
+  library(dplyr)
+  library(kableExtra)
+   output$options_kable <- function() {
+     mtcars %>%
+       knitr::kable("html")
+  }
+}
+
+# Run the application
+shinyApp(ui = ui, server = server)
+```
+
+

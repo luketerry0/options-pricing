@@ -1,0 +1,66 @@
+Ticker,Company Name,Sector,Price,Market Cap,EV,Dividend Yield,Payour Ratio,EV/EBIT,P/E,P/FCF
+ABBV,AbbVie Inc,Health Care,133.09,"235,287.00","297,087.00",3.82%,130.70%,21.7,34.2,16.7
+ABT,Abbott Laboratories,Health Care,139.16,"246,075.00","253,829.00",1.23%,87.10%,42.4,70.9,48.8
+ADM,Archer-Daniels-Midland Company,Consumer Staples,65.44,"36,609.00","43,565.00",2.25%,50.23%,22.3,22.4,-7.3
+ADP,Automatic Data Processing Inc,Information Technology,242,"101,974.00","103,357.00",1.54%,73.47%,37,47.8,46.3
+AFL,Aflac Incorporated,Financials,57.69,"37,826.00","45,892.00",2.20%,25.62%,10.9,11.6,
+ALB,Albemarle Corporation,Materials,227.9,"26,658.00","28,084.00",0.68%,31.35%,661.8,46,-244.2
+AMCR,Amcor plc,Materials,11.66,"17,876.00","23,767.00",4.05%,115.12%,19.5,28.4,24.7
+AOS,A. O. Smith Corporation,Industrials,82.77,"12,876.00","12,290.00",1.26%,45.09%,24.8,35.9,30.6
+APD,Air Products and Chemicals Inc,Materials,299.48,"65,875.00","67,224.00",1.95%,75.48%,56.9,38.7,73.1
+ATO,Atmos Energy Corporation,Utilities,102.73,"13,632.00","18,445.00",2.43%,51.12%,-34.2,21,-20.8
+BDX,Becton Dickinson and Company,Health Care,248.91,"70,950.00","85,765.00",1.33%,137.38%,25.7,103,30.1
+BEN,Franklin Resources Inc,Financials,33.42,"16,769.00","19,192.00",3.35%,63.04%,13.1,18.8,16
+,,,,,,,,,,
+CAH,Cardinal Health Inc,Health Care,50.75,"14,300.00","17,190.00",3.85%,-80.63%,5.8,-20.9,5.4
+CAT,Caterpillar Inc,Industrials,206.2,"111,542.00","129,250.00",2.04%,47.62%,14.2,23.4,18.3
+CB,Chubb Limited,Financials,190.64,"80,652.00","79,032.00",1.66%,36.48%,15.8,22,
+CINF,Cincinnati Financial Corporation,Financials,112.34,"18,102.00","17,862.00",2.22%,35.00%,12.3,15.8,
+CL,Colgate-Palmolive Company,Consumer Staples,82.79,"69,501.00","76,225.00",2.15%,61.81%,19.8,28.8,23.9
+CLX,The Clorox Company,Consumer Staples,169.83,"21,029.00","22,704.00",2.64%,67.55%,20.2,25.6,22.1
+CTAS,Cintas Corporation,Industrials,435,"44,982.00","46,245.00",1.37%,75.57%,39.2,55.2,53
+CVX,Chevron Corporation,Energy,116.41,"222,589.00","253,613.00",4.52%,249.68%,18.3,55.3,21.1
+DOV,Dover Corporation,Industrials,173.74,"25,015.00","27,336.00",1.14%,45.60%,26.2,39.9,32
+ECL,Ecolab Inc,Materials,228.24,"65,406.00","70,439.00",0.84%,95.84%,36.8,113.9,42.7
+ED,Consolidated Edison Inc,Utilities,83.77,"29,633.00","51,408.00",3.69%,78.69%,76.6,21.3,-31
+EMR,Emerson Electric Co,Industrials,91.28,"54,375.00","57,814.00",2.21%,58.21%,18.2,26.3,22.6
+ESS,Essex Property Trust Inc,Real Estate,342.67,"22,363.00","28,164.00",2.44%,117.85%,32.7,48.4,29.5
+EXPD,Expeditors International of Washington Inc,Industrials,130.76,"22,151.00","20,330.00",0.84%,30.16%,24.2,35.9,35.8
+FRT,Federal Realty Investment Trust,Real Estate,132.38,"10,312.00","14,298.00",3.21%,135.49%,104.2,42.2,452.1
+GD,General Dynamics Corporation,Industrials,204.69,"56,894.00","65,240.00",2.82%,50.67%,15.2,18,23.2
+GPC,Genuine Parts Company,Consumer Discretionary,135.37,"19,279.00","20,792.00",2.39%,101.73%,19.7,42.6,16.7
+GWW,W.W. Grainger Inc,Industrials,503.01,"25,717.00","27,761.00",1.25%,45.14%,24.1,36,30.1
+HRL,Hormel Foods Corporation,Consumer Staples,47.77,"25,880.00","28,560.00",2.05%,55.26%,29.6,26.9,33.9
+IBM,International Business Machines Corporation,Information Technology,130.63,"117,086.00","155,957.00",5.01%,74.57%,11.5,14.9,8.6
+ITW,Illinois Tool Works Inc,Industrials,240.5,"75,488.00","80,473.00",1.93%,63.36%,23.4,32.8,29.2
+JNJ,Johnson & Johnson,Health Care,168.25,"442,934.00","442,063.00",2.46%,74.15%,18.2,30.1,22.7
+KMB,Kimberly-Clark Corporation,Consumer Staples,138.89,"46,884.00","54,153.00",3.23%,78.59%,20.1,24.3,21.8
+KO,The Coca-Cola Company,Consumer Staples,58.22,"251,303.00","275,828.00",2.87%,93.47%,26.5,32.6,30.7
+LEG,Leggett & Platt Incorporated,Consumer Discretionary,39.57,"5,277.00","6,807.00",4.14%,75.11%,13.5,18.1,11.8
+LIN,Linde plc,Materials,339.17,"173,843.00","180,682.00",1.22%,56.47%,46.9,46.2,62.4
+LOW,Lowe’s Companies Inc,Consumer Discretionary,250.09,"168,234.00","185,442.00",1.12%,67.63%,30.9,60.4,41.9
+MCD,McDonald’s Corporation,Consumer Discretionary,265.95,"197,564.00","227,886.00",1.94%,71.24%,29.5,36.7,39.7
+MDT,Medtronic plc,Health Care,102.9,"138,355.00","153,234.00",2.35%,78.74%,20.5,33.5,26.8
+MKC,McCormick & Company Incorporated,Consumer Staples,93.03,"24,864.00","28,536.00",1.43%,44.83%,30.1,31.4,33.1
+MMM,3M Company,Industrials,174.97,"100,826.00","111,286.00",3.38%,68.32%,16.4,20.2,17.4
+NEE,NextEra Energy Inc,Utilities,90.7,"177,966.00","225,366.00",1.66%,65.53%,26,39.5,24.4
+NUE,Nucor Corporation,Materials,114.3,"32,666.00","35,604.00",1.42%,34.91%,19.9,24.6,24.4
+O,Realty Income Corporation,Real Estate,69.22,"39,161.00","47,555.00",4.07%,223.81%,35.8,54.9,37.6
+PBCT,People’s United Financial Inc,Financials,17.45,"7,469.00",904,4.16%,71.41%,1.7,17.2,
+PEP,PepsiCo Inc,Consumer Staples,169.78,"234,746.00","264,919.00",2.47%,65.91%,30,26.7,38.5
+PG,The Procter & Gamble Company,Consumer Staples,160.1,"385,546.00","395,734.00",2.07%,99.07%,28.7,47.7,31
+PNR,Pentair plc,Industrials,71.22,"11,785.00","12,312.00",1.11%,38.29%,26.3,34.5,29.5
+PPG,PPG Industries Inc,Materials,167.06,"39,346.00","44,134.00",1.32%,43.79%,22,33.1,25.8
+ROP,Roper Technologies Inc,Industrials,478.33,"50,456.00","57,633.00",0.47%,19.39%,31.7,41.2,35.6
+SHW,The Sherwin-Williams Company,Materials,338.38,"88,721.00","96,012.00",0.62%,37.56%,35.8,60.6,39.2
+SPGI,S&P Global Inc,Financials,473.74,"114,171.00","112,385.00",0.63%,34.40%,34.1,54.7,42.3
+SWK,Stanley Black & Decker Inc,Industrials,182.2,"29,704.00","33,658.00",1.59%,47.87%,17.7,30.2,25.3
+SYY,Sysco Corporation,Consumer Staples,76.65,"39,295.00","47,872.00",2.40%,87.34%,24.7,36.4,28.4
+T,AT&T Inc,Communication Services,24.87,"176,954.00","309,774.00",8.36%,156.39%,7,18.7,6.7
+TGT,Target Corporation,Consumer Discretionary,221.01,"104,324.00","110,157.00",1.33%,51.40%,28.4,38.6,28.1
+TROW,T. Rowe Price Group Inc,Financials,195.29,"43,891.00","40,472.00",2.12%,47.86%,16.3,22.6,29.4
+VFC,V.F. Corporation,Consumer Discretionary,69.45,"27,286.00","30,608.00",2.82%,121.24%,38.9,43,42.3
+WBA,Walgreens Boots Alliance Inc,Consumer Staples,50.48,"43,611.00","50,093.00",3.72%,57.09%,11.3,15.3,8.4
+WMT,Walmart Inc,Consumer Staples,139.49,"386,928.00","407,242.00",1.57%,61.23%,18.7,39,22.6
+WST,West Pharmaceutical Services Inc,Health Care,459.84,"34,064.00","33,585.00",0.15%,19.39%,115.6,131.1,141.4
+XOM,Exxon Mobil Corporation,Energy,61.02,"258,332.00","258,332.00",5.70%,349.16%,27.7,61.2,40.4
